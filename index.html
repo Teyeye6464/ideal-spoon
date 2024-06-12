@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обмен Криптовалют</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#exchange">Обмен</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="section home-section">
+        <div class="container">
+            <h1>Добро пожаловать в нашу Платформу обмена криптовалют!</h1>
+            <img src="https://via.placeholder.com/800x400" alt="Криптовалюты">
+            <p>Легко и безопасно обменяйте ваши криптовалюты.</p>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Наша платформа предлагает безопасные и быстрые способы обмена криптовалют для всех пользователей.</p>
+        </div>
+    </section>
+    <section id="exchange" class="section">
+        <div class="container">
+            <h2>Обмен</h2>
+            <form>
+                <label for="currency-from">Отдаю:</label>
+                <select id="currency-from" name="currency-from">
+                    <option value="btc">Bitcoin (BTC)</option>
+                    <option value="eth">Ethereum (ETH)</option>
+                    <option value="ltc">Litecoin (LTC)</option>
+                </select>
+
+                <label for="currency-to">Получаю:</label>
+                <select id="currency-to" name="currency-to">
+                    <option value="btc">Bitcoin (BTC)</option>
+                    <option value="eth">Ethereum (ETH)</option>
+                    <option value="ltc">Litecoin (LTC)</option>
+                </select>
+
+                <label for="amount">Сумма:</label>
+                <input type="text" id="amount" name="amount" placeholder="Введите сумму">
+
+                <button type="submit">Обменять</button>
+            </form>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами по адресу: support@cryptoexchange.com</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CryptoExchange. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
