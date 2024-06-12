@@ -1,0 +1,58 @@
+/* Основные стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+header {
+    background: #404040;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.home-section {
+    background: url('https://via.placeholder.com/1600x800') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+}
+
+.home-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-section p {
+    font-size: 1.25rem;
+}
+
+.container {
+    width
